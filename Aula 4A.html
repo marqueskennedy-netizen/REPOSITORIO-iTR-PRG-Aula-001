@@ -22,14 +22,15 @@ O que o código faz: Criamos o objeto lampada com a propriedade ligada iniciando
 
     <script>
         const lampada={
-            ligada: false,
-            alternar: function(){
-                this.ligada = !this.ligada;// invert o booleano
+            ligada:false,
+            alternar:function(){
+                this.ligada = !this.ligada// iverte o booleano
             }
         };
         function alternarLampada(){
             lampada.alternar();
-            document.getElementById("txtLampada").innerText = lampada.ligada ? "LIGADA" : "DESLIGADA";
+            document.getElementById("txtlampada").innerText = lampada.ligada ?
+            "LIGADA" : "DESLIGADA"
         }
     </script>
 </body>
